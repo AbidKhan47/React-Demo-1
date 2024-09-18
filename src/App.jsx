@@ -41,7 +41,11 @@ const App = () => {
     
   return (
       <>
-      <div className='flex flex-wrap m-auto items-center justify-center space-x-10 align-middle h-screen'>
+      <div className="flex flex-wrap m-auto items-center justify-center space-x-10 align-middle h-screen">
+        <h1 className="flex-col text-center text-8xl">
+          Soccer Card Favorites 
+        </h1>
+        <div className='flex flex-wrap m-auto items-center justify-center space-x-10 align-middle h-screen'>
       { 
         players.map((x) => {
           return (
@@ -51,6 +55,7 @@ const App = () => {
           )
         })
       }
+        </div>
       </div>
       </>
   );

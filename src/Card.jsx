@@ -1,6 +1,4 @@
 
-
-
 const Card = (props) => {
     return (
         <>
