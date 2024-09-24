@@ -22,7 +22,7 @@ const App = () => {
             picture: "https://3seaseurope.com/wp-content/uploads/2023/04/mrodic.webp"
         },
         {
-            name: "Zlatan Ibrahimovic", // Fixed name spelling
+            name: "Zlatan Ibrahimovic", 
             age: 42,
             card: "https://www.fifaindex.com/player/41236/zlatan-ibrahimovi%C4%87/fifa24/",
             picture: "https://imageio.forbes.com/specials-images/imageserve/65771f937e3be289946024d7/Udinese-Calcio-v-AC-Milan---Serie-A/960x0.jpg?height=473&width=711&fit=bounds"
@@ -34,7 +34,7 @@ const App = () => {
             picture: "https://prod-media.beinsports.com/image/1697925619184_8b0fc186-4a38-4728-8a19-1d4fd1911f90.jpg"
         },
         {
-            name: "Cristiano Ronaldo", // Fixed name spelling
+            name: "Cristiano Ronaldo", 
             age: 39,
             card: "https://www.fut.gg/players/20801-cristiano-ronaldo/25-20801/",
             picture: "https://library.sportingnews.com/styles/crop_style_16_9_tablet/s3/2023-02/Cristiano_Ronaldo_celebrate_Al-Nassr_Al-Wehda_2023.jpg?h=920929c4&itok=m4LWHeln"
@@ -67,12 +67,12 @@ const App = () => {
     
     return (
         <>
-            <div className="bg-[url('https://as1.ftcdn.net/v2/jpg/04/32/82/80/1000_F_432828076_oObmCMDFy2p3s6pT3Z0AZPatmE74T817.jpg')] bg-fixed bg-cover bg-center min-h-screen">
+            <div className="bg-[url('https://t3.ftcdn.net/jpg/04/32/82/80/360_F_432828076_oObmCMDFy2p3s6pT3Z0AZPatmE74T817.jpg')] bg-fixed bg-cover bg-center min-h-screen">
                 <div className="flex flex-col items-center justify-center h-screen">
-                    <h1 className="text-8xl text-center text-white text-bold font-serif mb-10">
+                    <h1 className="text-4xl md:text-6xl lg:text-8xl text-center text-white font-bold font-serif mb-10">
                         Soccer Player Favorites
                     </h1>
-                    <div className="grid grid-cols-5 gap-3 mx-auto">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 mx-auto">
                         { 
                             players.slice(0, 12).map((x) => {
                                 return (
